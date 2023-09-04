@@ -11,18 +11,17 @@
   <body>
     <p><a href="index.html">Go back</a></p>
 
-    <form class="feedback-form" autocomplete="off">
+    <form class="feedback-form js-feedback-form" autocomplete="off">
       <label>
         Email
-        <input type="email" name="email" autofocus />
+        <input class="js-user-email" type="email" name="email" autofocus />
       </label>
       <label>
         Message
-        <textarea name="message" rows="8"></textarea>
+        <textarea class="js-textarea" name="message" rows="8"></textarea>
       </label>
       <button type="submit">Submit</button>
     </form>
-
     <script src="js/03-feedback.js" type="module"></script>
   </body>
 </html>
